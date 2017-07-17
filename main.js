@@ -24,7 +24,6 @@ sadie.hungry = false
 
 moonshine.hungry = true
 
-
 //     __
 //    / /_  __  ______ ___  ____ _____  _____
 //   / __ \/ / / / __ `__ \/ __ `/ __ \/ ___/
@@ -36,7 +35,7 @@ function Human (cool) {
   this.cool = cool
   this.pet = function (dog) {
     dog.status = 'happy'
-    }
+  }
   this.feed = function (dog) {
     dog.hungry = false
   }
